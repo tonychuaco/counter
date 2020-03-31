@@ -9,7 +9,6 @@ class Counter extends Component {
     };
   }
 
-  //this where methods live
   increment = () => {
     let x = this.state.double ? 2 : 1;
     let y = this.state.double ? 19 : 20;
